@@ -10,6 +10,13 @@ var React = require('react');
 
 // Stateless Functional Component
 // with arrow function syntax
-var About = (props)=><h6>About Component</h6>;
+var About = (props)=>{
+  return(
+    <div>
+      <h3>About</h3>
+      <p>Welcome to the about page</p>
+    </div>
+  )
+}
 
 module.exports = About;
