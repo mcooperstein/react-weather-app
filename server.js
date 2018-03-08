@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 const PORT = process.env.PORT || 3000;
 
+// redirects https traffic to http for openWeatherMap
 app.use(function(req,res,next){
   if(req.headers['x-forwarded-proto'] === 'http'){
     next();
