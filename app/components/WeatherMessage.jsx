@@ -27,7 +27,7 @@ var React = require('react');
 var WeatherMessage = ({temp,location,icon}) => {
         return(
           <div>
-          <h4>The temperature in {location} is currently {temp} degrees.</h4>
+          <h4 className='text-center'>The temperature in {location} is currently {temp} degrees.</h4>
           <img src={`http://openweathermap.org/img/w/${icon}.png`}/>
           </div>
         )
