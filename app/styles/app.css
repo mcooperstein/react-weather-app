@@ -7,3 +7,9 @@
 input[type=search] {
   box-shadow: none;
 }
+
+#img-icon{
+  width:50%;
+  display:block;
+  margin:auto;
+}
